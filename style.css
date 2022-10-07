@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Century Gothic';
+    background-color: transparent;
+}
+
+.wrapper {
+    background: #fff;
+    padding: 30px 15px;
+    width: 400px;
+    border-radius: 15px;  
+}
+
+.wrapper .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Century Gothic';
+}
+
+.input-field {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.input-field .input-label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.input-field .input {
+    font-family: 'Century Gothic';
+    border: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+}
+
+.input-field .input:focus {
+    border-color: black;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.3s all ease;
+}
+
+.btn:hover, .btn:focus {
+    background: transparent;
+    border-color: black;
+    color: black;
+}
+
+.wrapper .form p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.wrapper .form p a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s all ease;
+}
+
+.wrapper .form p a:focus, .wrapper .form p a:hover {
+    color: #00a8ff;
+}
