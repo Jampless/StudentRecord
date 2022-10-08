@@ -13,7 +13,7 @@
 
     <div class = "wrapper">
         <h2 class="title">LOGIN</h2>
-        <form action = "index1.php" method="POST" class="form">
+        <form action = "Dashboard/index.php" method="POST" class="form">
 
             <div class = "input-field">
                 <label for="email" class="input-label"> Email </label>
